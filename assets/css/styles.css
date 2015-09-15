@@ -1,0 +1,236 @@
+html {
+	height:100%; 
+    background: url('../img/bridge.gif') no-repeat center center fixed; /*Photo by Tomoya Koh*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    border-style: solid;
+    border-color: white;
+    border-width:5px;
+}
+
+body {
+    
+    top right: no-repeat; 
+    background-attachment:fixed;
+    font-family:‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+	font-size:20px;
+	float:left;
+	width:100%;
+	height:100%;
+}
+img {
+    text-align: center;
+}
+
+/*nav*/
+nav {
+  width: 100%;
+  height: 70px; 
+}
+
+nav ul {
+  padding-top: 60px;
+  padding-left: 0px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  padding: 10px 0;
+  color: white;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+nav ul li a:hover   {
+  color: #00D3FF;
+}
+a.active {
+  border-bottom: 2px solid #ecf0f1;
+}
+#currentLink    {
+   color: #00D3FF;
+}
+
+/*end of nav*/
+
+/*sidebar*/
+#sidebar    {
+	width:28%;
+	float:right;
+	right:0;
+    position: fixed;
+    margin-right: 2%;
+}
+#sidebar ul {
+	list-style:none;
+	text-align:center;
+	margin-top: 10.65%;
+	background-color:#00A8CC;
+    padding-left: 0px;
+}
+#sidebar ul li  {
+	color:white;
+	padding-top: 7px;
+	padding-bottom:7px;
+	border-bottom:1px solid white;
+}
+#sidebar ul li a    {
+	font-size:15px;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+}
+#sidebar ul li a:hover  {
+	text-decoration:underline;
+}
+/*end of sidebar*/
+#container  {
+	float:left;
+	width:30%;
+	height:100%;
+}
+#home   {
+	width:100%;
+	height:100%;
+}
+.box    {
+/*	background-color:#C4C9C9;*/
+/*    border-style: solid;
+    border-color: #C4C9C9;
+    border-width:5px;*/
+    float: left;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+	margin:3%;
+    margin-left: inherit;
+    margin-right:33%;
+}
+.Ibox   {
+/*	background-color:#C4C9C9;*/
+    float: left;
+    margin-left: inherit;
+    width: 40%;
+}
+/*content box*/
+.content    {
+	color:white;
+	padding:10px;
+    display:inline-block;
+}
+.content a  {
+	color:white;
+}
+footer  {
+    border:none;
+	bottom:0;
+	left:0;
+	margin-left:5px;
+	margin-bottom:5px;
+	color:#1275ae;
+}
+.about {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+}
+/*end of content box*/
+/*box arounf nav*/
+.banner { 
+    margin-right:0%;
+    overflow: auto;
+    display: inline-block;
+    vertical-align: top;
+ 
+}
+.banner li  { 
+    list-style: none; 
+}
+.banner ul li   { 
+    float: left; 
+}
+.buttons    {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.buttons a:hover    {
+    color: black;
+
+}
+.buttons a,visited{
+    color: #ccc;
+    text-decoration:none;
+}
+/*end of box around nav*/
+
+/* Remove list formatting from Promo UL/LI */
+#promo, #promo li
+{
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+	margin:3%;
+    display: inline-block; 
+    width: 500px;
+
+}
+ 
+.home-page {
+    vertical-align: top;
+}
+ 
+/* Keep the next button at the right edge */
+#promonav .next
+{
+    display:inline-block;
+}
+ 
+/* Link styles in promo navigation  */
+#promonav a
+{
+    padding:0 3px;
+    border:1px solid #eee;
+    text-decoration:none;
+    outline:0;
+    color:#777;
+}
+ 
+/* Style applied on mouseover of promo navigation link(s) */
+#promonav a:hover
+{
+    color:#000;
+}
+/* The index automatically gets an activeSlide class, use this to indicate the current slide */
+#promoindex a.activeSlide
+{
+    font-weight:bold;
+    background:#fff;
+    border-color:#ccc;
+}
+#top    {
+    width:100%;
+    padding-bottom: 60px;
+}
+#logo   {
+    width:193px;
+    height: 120px;
+    padding-bottom: 10px;
+    float:left;
+}
+footer  {
+    padding-bottom: 100px;
+}
